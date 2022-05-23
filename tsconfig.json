@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "composite": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["test/**", "node_modules/**"]
+}
