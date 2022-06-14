@@ -19,6 +19,7 @@
   "scripts": {
     "build": "npx tsc",
     "clean": "npx tsc --build --clean",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prestart": "npm run build"
   }
 }
